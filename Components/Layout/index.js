@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
         <div className={styles.logoContainer}>
           <Image
             src="/assets/imgs/Nextjs-logo.png"
-            alt="Next logo"
+            alt="Next-logo"
             layout="fill"
             objectFit="cover"
           />
