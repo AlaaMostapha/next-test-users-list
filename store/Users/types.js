@@ -1,0 +1,5 @@
+export const USERS_REQUEST = "USERS_REQUEST";
+export const USERS_RECIEVE = "USERS_RECIEVE";
+
+export const USER_REQUEST = "USER_REQUEST";
+export const USER_RECIEVE = "USER_RECIEVE";
