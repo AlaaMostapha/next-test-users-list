@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 
 describe("Layout", () => {
   it("render logo", () => {
-    render(<Layout></Layout>);
+    render(<Layout/>);
     expect(screen.getByRole("img")).toBeInTheDocument();
   });
 });

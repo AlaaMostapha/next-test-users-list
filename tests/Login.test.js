@@ -2,7 +2,7 @@ import { render, screen, fireEvent, waitFor } from "../test-utils";
 import Login from "../pages/Auth/Login";
 
 describe("Login Form", () => {
-  it("checks for valid email field value with correct format", async () => {
+  it("check valid email", async () => {
     render(<Login />);
 
     fireEvent.change(screen.getByPlaceholderText("Email"), {
@@ -15,7 +15,7 @@ describe("Login Form", () => {
     expect(emailField).toBeValid();
   });
 
-  it("checks for valid password field value with minimum 8 characters", async () => {
+  it("check valid password", async () => {
     render(<Login />);
 
     fireEvent.change(screen.getByPlaceholderText("Password"), {

@@ -18,10 +18,6 @@ describe("User Page", () => {
       ],
     },
   };
-
-  jest
-    .spyOn(redux, "useSelector")
-    .mockImplementation((callback) => callback(data));
   jest
     .spyOn(redux, "useSelector")
     .mockImplementation((callback) => callback(data));
